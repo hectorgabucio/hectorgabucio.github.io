@@ -1,1 +1,9 @@
-/* You can customize theme styles here */
+/* Custom theme styles */
+
+.avatar-image {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 400px !important;
+  height: 400px !important;
+  /* Adjust size as needed */
+}

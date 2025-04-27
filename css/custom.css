@@ -1,12 +1,18 @@
 /* Custom theme styles */
 
+@media (min-width: 1200px) {
+  body .rad-showcase+section {
+    margin-top: -215px !important;
+  }
+}
+
 .avatar-image {
   border-radius: 50%;
   object-fit: cover;
-  width: 400px !important;
-  height: 400px !important;
+  width: 300px !important;
+  height: 300px !important;
   /* Adjust size as needed */
-  margin-left: 100px;
+  margin-left: 200px;
   display: block;
 }
 

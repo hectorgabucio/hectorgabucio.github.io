@@ -6,4 +6,9 @@
   width: 400px !important;
   height: 400px !important;
   /* Adjust size as needed */
+  margin-left: 100px;
+}
+
+.platform-links-margins {
+  margin-top: 20px !important;
 }

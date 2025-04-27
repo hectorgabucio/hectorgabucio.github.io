@@ -7,6 +7,17 @@
   height: 400px !important;
   /* Adjust size as needed */
   margin-left: 100px;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .avatar-image {
+    width: 200px !important;
+    height: 200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+  }
 }
 
 .platform-links-margins {

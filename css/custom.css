@@ -18,6 +18,25 @@
     margin-right: auto !important;
     display: block;
   }
+  /* Center the resume button */
+  .rad-showcase .btn-primary {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  /* Center the social links row */
+  .platform-links-margins {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px !important;
+    text-align: center;
+  }
+  .platform-links-margins .col-12 {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
 }
 
 .platform-links-margins {
